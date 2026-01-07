@@ -1,6 +1,35 @@
+@font-face {
+  font-family: "8bitOperatorPlus-Bold";
+  src: url(src/assets/fonts/8bitOperatorPlus-Bold.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "8bitOperatorPlus-Regular";
+  src: url(src/assets/fonts/8bitOperatorPlus-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
+  margin: 0;
+  padding: 0;
+  font-family: "8bitOperatorPlus-Regular", "monospace";
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+
+.bold {
+  font-family: "8bitOperatorPlus-Bold", "8bitOperatorPlus-Regular", "monospace";
 }
