@@ -2,7 +2,7 @@
 </script>
 
 <header>
-  <p>hi</p>
+  <p class="bold">GONERENGINE</p>
 </header>
 
 <style>
