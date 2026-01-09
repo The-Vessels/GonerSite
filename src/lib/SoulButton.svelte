@@ -17,9 +17,13 @@
         /* text-shadow: 1px 1px #000080; */
     }
     button img {
+        opacity: 0;
         image-rendering: pixelated;
     }
     button:hover {
         color: yellow;
+    }
+    button:hover img {
+        opacity: 1;
     }
 </style>
