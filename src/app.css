@@ -20,6 +20,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --device-green-light: #00ff00;
+  --device-green-dark: #008000;
 }
 
 body {
